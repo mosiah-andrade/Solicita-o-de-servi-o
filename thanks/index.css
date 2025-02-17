@@ -1,0 +1,84 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    ;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    box-shadow: 2px 2px 20px;
+    background: #001f3dff;
+    border-bottom: 1px solid #fca212ff;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header img {
+    width: 100px;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+div a{
+    background-color: rgb(205, 196, 252);
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+div a:hover{
+    transition: all 85ms;
+    transform: scale(1.05);
+    background-color: rgb(190, 178, 248);
+    font-weight:bold;
+    animation: changecolor 5s infinite alternate ease-in-out;
+
+}
+div img {
+    animation: jump 0.5s infinite alternate ease-in-out;
+
+}
+
+@keyframes changecolor {
+    0% {background-color: rgb(182, 160, 88);}
+    50% {background-color: rgb(182, 217, 250)}
+    100% {background-color: rgb(190, 178, 248)}
+}
+@keyframes jump {
+    0% { transform: translateY(0); ;}
+    100% { transform: translateY(-10px); }
+}
+
+h1{
+    
+    font-size: 4rem;    
+}
+p{
+    font-size: 2rem;    
+
+}
+footer{
+    position: fixed;
+    bottom: 0vh;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background: #001f3dff;
+    border-top: 1px solid #fca212ff;
+}
+footer p {
+    font-size: 1rem;
+    color: aliceblue;
+}
