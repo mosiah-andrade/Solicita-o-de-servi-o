@@ -10,3 +10,6 @@ A página inclui:
 - **Animação em Loop**: Utiliza a propriedade `@keyframes` do CSS para animar um elemento de forma contínua, melhorando a experiência visual do usuário.
 
 Esta abordagem não só confirma a conclusão da solicitação, mas também mantém o cliente engajado visualmente enquanto aguarda a próxima etapa.
+
+![image](https://github.com/user-attachments/assets/2f679662-b3ba-497e-a86b-920ccaa9c85e)
+
