@@ -42,3 +42,11 @@ footer p {
     font-size: 1rem;
     color: aliceblue;
 }
+@media (max-width: 700px) {
+    div{
+        width: 90%
+    }
+    footer{
+        text-align: center;
+    }
+}
